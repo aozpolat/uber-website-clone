@@ -39,20 +39,20 @@ export default function Home() {
                     </div>
                   </button>
                 </li>
-                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200">
+                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200 hover:cursor-pointer">
                   <a>Safety</a>
                 </li>
-                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200">
+                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200 hover:cursor-pointer">
                   <a>Help</a>
                 </li>
-                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200">
+                <li className=" rounded-full py-2.5 px-3 hover:bg-gray-800 transition duration-200 hover:cursor-pointer">
                   <a>COVID-19 resources</a>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="flex  items-center text-sm  mr-6">
+          <div className="flex  items-center text-sm  mr-3">
             <ul className="flex  space-x-1 leading-4">
               <li>
                 <button className="flex items-center font-medium py-2.5 px-3 rounded-full hover:bg-gray-800 transition duration-200">
@@ -109,7 +109,87 @@ export default function Home() {
             </button>
           </div>
         </nav>
-        <h1>test</h1>
+
+        <section className="relative w-full ">
+          <div className="max-w-screen-xl absolute inset-0 mx-auto">
+            <div className="w-full p-16">
+              <div className="  w-1/2  ">
+                <header className="flex justify-around text-center leading-5  bg-white  bg-opacity-95 border-b border-gray-200">
+                  <div className="px-3 pt-7 pb-5 w-28 ">
+                    <div className="w-6 h-6 mx-auto mb-2">
+                      <img
+                        src="https://www.uber-assets.com/image/upload/v1558389718/assets/8e/33c8c0-f7e9-467c-924b-c70232943a47/original/Earn-filled.svg"
+                        alt="Earn"
+                        role="presentation"
+                      />
+                    </div>
+                    <div>Drive or deliver</div>
+                  </div>
+
+                  <div className="px-3 pt-7 pb-6 w-28 ">
+                    <div className="w-6 h-6 mx-auto mb-2">
+                      <img
+                        src="https://www.uber-assets.com/image/upload/v1542256606/assets/7d/5a4852-3b2a-4466-96de-602dfb62dc1b/original/restaurant-outlined.svg"
+                        alt="Restaurant location"
+                        role="presentation"
+                        class="gn n3 bq n4"
+                      />
+                    </div>
+                    <div className="flex items-center justify-center  h-10">
+                      Eat
+                    </div>
+                  </div>
+                  <div className="px-3 pt-7 pb-6 w-28 ">
+                    <div className="w-6 h-6 mx-auto mb-2">
+                      <img
+                        src="https://www.uber-assets.com/image/upload/v1542252540/assets/6d/87af17-3970-4d01-8936-1b0ba102ea6e/original/car-front-outlined.svg"
+                        alt="Car"
+                        role="presentation"
+                        class="gn n3 bq n4"
+                      />
+                    </div>
+                    <div className="flex items-center justify-center  h-10">
+                      Ride
+                    </div>
+                  </div>
+                </header>
+                <div className="  bg-white   p-12 ">
+                  <div>
+                    <h2 className=" text-5xl font-semibold  leading-snug">
+                      Get in the driver's seat and get paid
+                    </h2>
+
+                    <p className="py-5">
+                      Drive on the platform with the largest network of active
+                      riders.
+                    </p>
+                  </div>
+                  <a>
+                    <button className=" py-3.5 px-6 bg-black  text-base text-white  font-medium leading-4 mt-2  hover:bg-gray-900 transition duration-200">
+                      Sign up to drive
+                    </button>
+                  </a>
+                  <div className="mt-5">
+                    <a>
+                      <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                        Learn more about driving and delivering
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full h-full inset-0 ">
+            <img
+              src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png"
+              alt="Get in the driver's seat and get paid"
+              role="presentation"
+              className="w-full h-full  "
+            />
+          </div>
+        </section>
       </main>
     </div>
   );
