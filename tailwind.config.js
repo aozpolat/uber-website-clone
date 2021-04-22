@@ -7,6 +7,12 @@ module.exports = {
       fontFamily: {
         uber: ["Poppins", "sans-serif"],
       },
+      spacing: {
+        96: "27rem",
+      },
+      inset: {
+        5.5: "1.4rem",
+      },
     },
   },
   variants: {
