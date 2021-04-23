@@ -7,12 +7,19 @@ module.exports = {
       fontFamily: {
         uber: ["Poppins", "sans-serif"],
       },
+      backgroundImage: (theme) => ({
+        section2:
+          "url('https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png')",
+      }),
       spacing: {
         96: "27rem",
       },
       inset: {
         5.5: "1.4rem",
       },
+    },
+    height: {
+      section1: "854px",
     },
   },
   variants: {

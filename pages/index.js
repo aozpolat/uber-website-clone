@@ -3,7 +3,6 @@ import { useState } from "react";
 
 export default function Home() {
   const [photo, setPhoto] = useState("first");
-  const [test, setTest] = useState(true);
   return (
     <div>
       <Head>
@@ -115,7 +114,7 @@ export default function Home() {
           </div>
         </nav>
 
-        <section className="relative w-full ">
+        <section className="relative w-full h-section1">
           <div className="max-w-screen-xl absolute inset-0 mx-auto z-10">
             <div className="w-full p-16">
               <div className="  w-1/2  ">
@@ -151,10 +150,7 @@ export default function Home() {
                   </div>
 
                   <div
-                    onClick={() => {
-                      setPhoto("third");
-                      setTest(false);
-                    }}
+                    onClick={() => setPhoto("third")}
                     className="px-3 pt-7 pb-6 w-28 hover:text-gray-600 hover:cursor-pointer"
                   >
                     <div className="w-6 h-6 mx-auto mb-2">
@@ -302,49 +298,72 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* the first photo  ${
-              photo === "first" ? "block" : "hidden"
-            }*/}
-          <div
-            className={`w-full  absolute inset-0 ${
-              photo === "first" ? "" : "opacity-0"
-            } transition duration-700 ease-in-out  `}
-          >
-            <img
-              src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png"
-              alt="Get in the driver's seat and get paid"
-              role="presentation"
-              className="w-full   "
-            />
-          </div>
 
-          {/* the second photo*/}
-          <div
-            className={`w-full  absolute inset-0 ${
-              photo === "second" ? "" : "opacity-0"
-            } transition duration-700 ease-in-out `}
-          >
-            <img
-              src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521576/assets/9d/2ff1e0-a207-425a-a1b8-cf40c95d6567/original/Eats_Home_bg_desktop2x.png"
-              alt="Eaters opening order"
-              role="presentation"
-              className="w-full   "
-            ></img>
-          </div>
+          <div className=" absolute inset-0 ">
+            {/* the first photo }*/}
+            <div
+              className={`w-full  absolute inset-0 ${
+                photo === "first" ? "" : "opacity-0"
+              } transition duration-700 ease-in-out  `}
+            >
+              <img
+                src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png"
+                alt="Get in the driver's seat and get paid"
+                role="presentation"
+                className="w-full   "
+              />
+            </div>
 
-          {/* the third photo*/}
-          <div
-            className={`w-full   absolute inset-0 ${
-              photo === "third" ? "" : "opacity-0"
-            } transition duration-700 ease-in-out
+            {/* the second photo*/}
+            <div
+              className={`w-full  absolute inset-0 ${
+                photo === "second" ? "" : "opacity-0"
+              } transition duration-700 ease-in-out `}
+            >
+              <img
+                src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521576/assets/9d/2ff1e0-a207-425a-a1b8-cf40c95d6567/original/Eats_Home_bg_desktop2x.png"
+                alt="Eaters opening order"
+                role="presentation"
+                className="w-full   "
+              ></img>
+            </div>
+
+            {/* the third photo*/}
+            <div
+              className={`w-full   absolute inset-0 ${
+                photo === "third" ? "" : "opacity-0"
+              } transition duration-700 ease-in-out
              `}
-          >
-            <img
-              src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png"
-              alt="Rider getting into car"
-              role="presentation"
-              className="w-full   "
-            />
+            >
+              <img
+                src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1899,h_1068/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png"
+                alt="Rider getting into car"
+                role="presentation"
+                className="w-full   "
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* second section   */}
+        <section>
+          <div className=" bg-section2 bg-center bg-cover">
+            <div className="max-w-screen-xl mx-auto">
+              <div className="p-16">
+                <div className="mb-5">
+                  <h1 className="text-5xl mb-6">Uber for Business</h1>
+                  <p>
+                    Transform the way your company moves and feeds its people
+                  </p>
+                </div>
+
+                <a>
+                  <button className=" py-3.5 px-6 bg-black  text-base text-white  font-medium leading-4 mt-2  hover:bg-gray-900 transition duration-200">
+                    See how
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </main>
