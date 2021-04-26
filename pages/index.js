@@ -351,17 +351,204 @@ export default function Home() {
             <div className="max-w-screen-xl mx-auto">
               <div className="p-16">
                 <div className="mb-5">
-                  <h1 className="text-5xl mb-6">Uber for Business</h1>
+                  <h1 className="text-4xl mb-6 font-semibold">
+                    Uber for Business
+                  </h1>
                   <p>
                     Transform the way your company moves and feeds its people
                   </p>
                 </div>
 
                 <a>
-                  <button className=" py-3.5 px-6 bg-black  text-base text-white  font-medium leading-4 mt-2  hover:bg-gray-900 transition duration-200">
+                  <button className=" py-3.5 px-7 bg-black  text-base text-white  font-medium leading-4 mt-3  hover:bg-gray-900 transition duration-200">
                     See how
                   </button>
                 </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*third section */}
+        <section>
+          <div className="max-w-screen-xl mx-auto">
+            <div className="px-16 pb-16 ">
+              <h2 className="text-4xl  font-semibold">
+                Focused on safety, wherever you go
+              </h2>
+              <div className="flex flex-wrap justify-between mt-10">
+                <div className=" w-12/15">
+                  <div>
+                    <img
+                      src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_465/v1613520218/assets/3e/e98625-31e6-4536-8646-976a1ee3f210/original/Safety_Home_Img2x.png"
+                      alt="Our commitment to your safety"
+                      role="presentation"
+                    />
+                  </div>
+                  <h2 className="text-xl font-semibold my-3">
+                    Our commitment to your safety
+                  </h2>
+
+                  <p>
+                    With every safety feature and every standard in our
+                    Community Guidelines, we're committed to helping to create a
+                    safe environment for our users.
+                  </p>
+                  <div className="mt-7 flex space-x-7">
+                    <a>
+                      <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                        Read about our Community Guidelines
+                      </div>
+                    </a>
+                    <a>
+                      <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                        See all safety features
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div className=" w-12/15">
+                  <div>
+                    <img
+                      src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698/v1613520285/assets/c2/91ea9c-90d7-4c36-a740-d7844536694e/original/Cities_Home_Img2x.png"
+                      alt="Our commitment to your safety"
+                      role="presentation"
+                    />
+                    <h2 className="text-xl font-semibold my-3">
+                      Setting 10,000+ cities in motion
+                    </h2>
+
+                    <p>
+                      The app is available in thousands of cities worldwide, so
+                      you can request a ride even when you’re far from home.
+                    </p>
+                    <div className="mt-7 ">
+                      <a>
+                        <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                          View all cities
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* forth section   */}
+        <section>
+          <div className="max-w-screen-xl mx-auto">
+            <div className="p-16 flex flex-wrap justify-between">
+              <div className="w-1/3">
+                <div>
+                  <img
+                    src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg"
+                    alt="Multiple people"
+                    role="presentation"
+                  />
+                </div>
+                <h2 className="text-lg font-medium mt-7 mb-4">About us</h2>
+                <p>
+                  Find out how we started, what drives us, and how we’re
+                  igniting opportunity.
+                </p>
+
+                <div className="mt-7 ">
+                  <a>
+                    <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                      Learn more
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="w-1/3">
+                <div>
+                  <img
+                    src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg"
+                    alt="Multiple people"
+                    role="presentation"
+                  />
+                </div>
+                <h2 className="text-lg font-medium mt-7 mb-4">Newsroom</h2>
+                <p>
+                  See announcements about our latest releases, initiatives, and
+                  partnerships.
+                </p>
+
+                <div className="mt-7 ">
+                  <a>
+                    <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                      Learn more
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="w-1/3">
+                <div>
+                  <img
+                    src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg"
+                    alt="Multiple people"
+                    role="presentation"
+                  />
+                </div>
+                <h2 className="text-lg font-medium mt-7 mb-4">
+                  Global citizenship
+                </h2>
+                <p>
+                  Read about our commitment to making a positive impact in the
+                  cities we serve.
+                </p>
+
+                <div className="mt-7 ">
+                  <a>
+                    <div className="border-b border-gray-300 w-max leading-8 hover:border-gray-600 hover:cursor-pointer transition ease-in-out duration-500">
+                      Learn more
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-gray-100">
+          <div className="max-w-screen-xl mx-auto">
+            <div className="p-16">
+              <h2 className="text-4xl mb-6 font-semibold">
+                There’s more to love in the apps
+              </h2>
+              <div className="flex mt-10">
+                <a href="#" className="flex  w-12/15 bg-white relative">
+                  <div className="my-6 ml-6">
+                    <img
+                      src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_150,h_150/v1618459302/assets/8e/cbcd2e-e7f1-4bd1-ae4e-5343b99ff22f/original/Driver-App-logo.png"
+                      alt="Driver App logo"
+                      role="presentation"
+                    />
+                  </div>
+                  <div className="p-6  pr-12 flex  items-center">
+                    <h2 className="text-2xl  font-semibold">
+                      Download the Driver app
+                    </h2>
+                  </div>
+
+                  <div className="absolute right-6  top-20">
+                    <svg
+                      focusable="false"
+                      width="1em"
+                      height="25"
+                      fill="currentColor"
+                      viewBox="0 0 36 36"
+                    >
+                      <path
+                        d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <div className="flex w-2/5"></div>
               </div>
             </div>
           </div>

@@ -14,12 +14,15 @@ module.exports = {
       spacing: {
         96: "27rem",
       },
+      width: {
+        "12/15": "48.5%",
+      },
       inset: {
         5.5: "1.4rem",
       },
-    },
-    height: {
-      section1: "854px",
+      height: {
+        section1: "854px",
+      },
     },
   },
   variants: {
