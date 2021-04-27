@@ -435,7 +435,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* forth section   */}
+        {/* fourth section   */}
         <section>
           <div className="max-w-screen-xl mx-auto">
             <div className="p-16 flex flex-wrap justify-between">
@@ -512,14 +512,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* fifth section   */}
         <section className="bg-gray-100">
           <div className="max-w-screen-xl mx-auto">
             <div className="p-16">
               <h2 className="text-4xl mb-6 font-semibold">
                 There’s more to love in the apps
               </h2>
-              <div className="flex mt-10">
-                <a href="#" className="flex  w-12/15 bg-white relative">
+              <div className="flex mt-10 justify-between">
+                <a href="#" className="flex  w-12/15 bg-white relative group">
                   <div className="my-6 ml-6">
                     <img
                       src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_150,h_150/v1618459302/assets/8e/cbcd2e-e7f1-4bd1-ae4e-5343b99ff22f/original/Driver-App-logo.png"
@@ -533,7 +535,7 @@ export default function Home() {
                     </h2>
                   </div>
 
-                  <div className="absolute right-6  top-20">
+                  <div className="absolute right-6  top-1/2 transform  -translate-y-2/4 transition duration-300 ease-linear group-hover:translate-x-3">
                     <svg
                       focusable="false"
                       width="1em"
@@ -548,11 +550,172 @@ export default function Home() {
                     </svg>
                   </div>
                 </a>
-                <div className="flex w-2/5"></div>
+
+                <a href="#" className="flex  w-12/15 bg-white relative group">
+                  <div className="my-6 ml-6">
+                    <img
+                      src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_150,h_150/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png"
+                      alt="Driver App logo"
+                      role="presentation"
+                    />
+                  </div>
+                  <div className="p-6  pr-12 flex  items-center">
+                    <h2 className="text-2xl  font-semibold">
+                      Download the Uber app
+                    </h2>
+                  </div>
+
+                  <div className="absolute right-6  top-1/2 transform  -translate-y-2/4 transition duration-300 ease-linear group-hover:translate-x-3">
+                    <svg
+                      focusable="false"
+                      width="1em"
+                      height="25"
+                      fill="currentColor"
+                      viewBox="0 0 36 36"
+                    >
+                      <path
+                        d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </section>
+
+        {/* sixth section   */}
+        <section>
+          <div className=" max-w-screen-xl mx-auto">
+            <div className="p-16  flex justify-between">
+              <a className="border-b border-black w-12/15 group hover:cursor-pointer ">
+                <div className="pb-10 flex justify-between">
+                  <h1 className="font-semibold text-4xl">Sign up to drive</h1>
+                  <div className="transform transition duration-300 group-hover:translate-x-3">
+                    <svg
+                      width="36px"
+                      height="36px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <title>Arrow right (filled)</title>
+                      <path
+                        d="M22.2 12l-6.5 9h-3.5l5.5-7.5H2v-3h15.7L12.2 3h3.5l6.5 9z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+
+              <a className="border-b border-black w-12/15 group hover:cursor-pointer ">
+                <div className="pb-10 flex justify-between">
+                  <h1 className="font-semibold text-4xl">Sign up to ride</h1>
+                  <div className="transform transition duration-300 group-hover:translate-x-3">
+                    <svg
+                      width="36px"
+                      height="36px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <title>Arrow right (filled)</title>
+                      <path
+                        d="M22.2 12l-6.5 9h-3.5l5.5-7.5H2v-3h15.7L12.2 3h3.5l6.5 9z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <footer className="bg-black">
+          <div className="max-w-screen-xl mx-auto py-16 text-white">
+            <div>
+              <div className=" text-2xl py-11">
+                <a href="#">Uber</a>
+              </div>
+              <div>
+                <a href="#">
+                  <p className="text-lg pb-12 border-white max-w-max hover:border-b ">
+                    Visit Help Center
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            {/* second footer div  */}
+            <div className="flex flex-wrap gap-9 mt-7">
+              <div className=" w-1/5">
+                <div className="text-xl font-medium">Company</div>
+                <div className="mt-4 space-y-3">
+                  <div>
+                    <a href="#">About us</a>
+                  </div>
+
+                  <div>
+                    <a href="#"> Our offerings</a>
+                  </div>
+
+                  <div>
+                    <a href="#"> Newsroom</a>
+                  </div>
+                  <div>
+                    <a href="#"> Investors</a>
+                  </div>
+                  <div>
+                    <a href="#">Blog</a>
+                  </div>
+                  <div>
+                    <a href="#">Careers</a>
+                  </div>
+                  <div>
+                    <a href="#">AI</a>
+                  </div>
+                </div>
+              </div>
+              <div className="w-1/5">
+                <div className="text-xl font-medium">Products</div>
+                <div className="mt-4 space-y-3">
+                  <div>
+                    <a href="#"> Ride</a>
+                  </div>
+
+                  <div>
+                    <a href="#"> Drive</a>
+                  </div>
+
+                  <div>
+                    <a href="#"> Eat</a>
+                  </div>
+                  <div>
+                    <a href="#"> Uber for Business</a>
+                  </div>
+                  <div>
+                    <a href="#">Uber Freight</a>
+                  </div>
+                </div>
+              </div>
+              <div className="w-1/5">
+                <div className="text-xl font-medium">Global citizenship</div>
+                <div className="mt-4 space-y-3">
+                  <div>
+                    <a href="#"> Safety</a>
+                  </div>
+
+                  <div>
+                    <a href="#">Diversity and Inclusion</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* third footer div  */}
+            <div></div>
+          </div>
+        </footer>
       </main>
     </div>
   );
